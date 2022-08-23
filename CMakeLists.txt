@@ -251,7 +251,7 @@ find_package(absl CONFIG REQUIRED)
 if (${GOOGLE_CLOUD_CPP_ENABLE_GRPC})
     find_package(gRPC REQUIRED QUIET)
     find_package(ProtobufWithTargets REQUIRED QUIET)
-    add_subdirectory(external/googleapis)
+#    add_subdirectory(external/googleapis)
 endif ()
 
 # The only case where REST support is not needed is when not compiling services
